@@ -6,6 +6,7 @@ Agent skills for Claude Code, Codex, Cursor, OpenCode and other agents, installa
 | --- | --- |
 | `t3-browser-test` | Spawns an independent agent via T3 Code orchestration to test current changes in T3's real browser preview. |
 | `t3-critical-review` | Spawns a second agent via T3 Code orchestration to critically review your changes and iterates until every finding is resolved. |
+| `babysit-pr` | Opens a PR and babysits it through bot/AI review (CodeRabbit, Sonar, Copilot, …): fixes or pushes back on every comment in its own thread until each reviewer is done or broken. |
 | `notebooklm` | Operates Gemini Notebook through the `notebooklm-py` CLI / Python API (skill shipped with notebooklm-py v0.8.5). |
 
 ## Install
